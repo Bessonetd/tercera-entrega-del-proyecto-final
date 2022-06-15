@@ -41,6 +41,7 @@ main .noticias article a {
 }
 main .noticias p {
   font-size: 20px;
+  padding-left: 10px;
 }
 main .publicidad {
   width: 100%;
@@ -79,6 +80,9 @@ footer i:hover {
   color: #dc143c;
 }
 
+.noticiaA, .noticiaC, .noticiaB {
+  padding: 12px;
+}
 .noticiaA h2, .noticiaC h2, .noticiaB h2 {
   font-family: "PT Serif", serif;
 }

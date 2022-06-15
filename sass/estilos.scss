@@ -61,6 +61,7 @@ main{
         }
         p{
             font-size: 20px;
+            padding-left: 10px;
         }
     }
 // fin section noticias
@@ -122,6 +123,7 @@ footer{
 
 // inicio pagina hoy
 .noticiaA{
+    padding: 12px;
     h2{
         font-family: $font2;
     }
