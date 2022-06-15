@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keyworde" content="noticias hoy, notcias, ">
+    <meta name="description" content="">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <title>Noticias Hoy</title>
+</head>
+
+<body>
+    <!-- inicio header -->
+    <header>
+
+        <nav class="nav navbar-expand-lg ">
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collaps">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-center" id="collaps">
+
+                <ul class="navbar-nav">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Inicio</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="./page/hoy.html">Hoy</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="./page/mundo.html">Mundo</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="./page/clima.html">Clima</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="./page/contacto.html">Contacto</a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </nav>
+
+        <h1 class="text-center">Noticias <span>Hoy</span></h1>
+
+    </header>
+    <!-- fin header -->
+
+    <!-- inicio main -->
+    <main class="container-fluid">
+        <!-- inicio section noticia -->
+        <section class="noticias row ">
+
+            <article class="text-center col-sm-12 col-md-6 ">
+                <a href="./page/hoy.html" class="col-sm-12"> Murió a los 50 años la actriz Julieta Vallina</a>
+                <img class="img-fluid" src="./img/img1.jpg" alt="noticia1">
+                <p class="text-justify">La triste noticia fue confirmada durante la madrugada de este martes por la Asociación Argentina de Actores...</p>
+            </article>
+
+            <article class="text-center col-sm-12 col-md-6 ">
+                <a href="./page/mundo.html" class="col-sm-12"> México comenzará a aplicar la vacuna de Covid-19 a niñas y niños de 5 a 11 años</a>
+                <img src="./img/img2.jpg" alt="notcias2">
+                <p class="text-justify">El subsecretario de Salud, Hugo López-Gatell anunció este 14 de junio inicia un cambio de política sobre la vacunación mexicana...</p>
+            </article>
+
+            <article class="text-center col-sm-12 col-md-12 ">
+                <a href="./page/clima.html" class="col-sm-12">Alerta de tormenta</a>
+                <img class="" src="./img/img3.jpg" alt="noticia3">
+                <p class="text-justify">Se esperan fuertes tormentas para toda la region...</p>
+            </article>
+
+        </section>
+        <!-- fin section noticia -->
+
+        <!-- inicio publicidad -->
+        <div class="publicidad"></div>
+        <!-- fin publicidad -->
+
+        <!-- inicio section video -->
+        <section class="video text-center">
+
+            <h2>Videos</h2>
+
+            <div id="demo" class="carousel slide" data-ride="carousel">
+
+                <!-- Indicators -->
+                <ul class="carousel-indicators">
+                    <li data-target="#demo" data-slide-to="0" class="active"></li>
+                    <li data-target="#demo" data-slide-to="1"></li>
+                    <li data-target="#demo" data-slide-to="2"></li>
+                </ul>
+                
+                <!-- The slideshow -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <iframe width="80%" height="400" src="https://www.youtube.com/embed/xiX6Ro4v00g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="carousel-item">
+                        <iframe width="80%" height="400" src="https://www.youtube.com/embed/pMiEONuCqjI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="carousel-item">
+                        <iframe width="80%" height="400" src="https://www.youtube.com/embed/hM7Eh0gGNKA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            
+                <!-- Left and right controls -->
+                <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                    <i class="fa-regular fa-circle-left"></i>
+                </a>
+                <a class="carousel-control-next" href="#demo" data-slide="next">
+                    <i class="fa-regular fa-circle-right"></i>
+                </a>
+            
+            </div>
+
+        </section>
+        <!-- fin section video -->
+
+    </main>
+    <!-- fin main -->
+
+    <!-- inicio footer -->
+    <footer class="text-center">
+
+        <h3> nuestras redes</h3>
+
+        <i class="fa-brands fa-facebook-square"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter-square"></i>
+
+    </footer>
+    <!-- fin footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+</body>
+</html>
